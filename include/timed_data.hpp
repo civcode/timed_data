@@ -34,7 +34,7 @@ public:
   }
 
   // Function to check if data is currently written (for external checking)
-  bool is_written() const
+  bool written() const
   {
     return has_been_written_;
   }
